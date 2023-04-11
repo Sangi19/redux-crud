@@ -1,0 +1,103 @@
+{
+  "albums":[
+    {
+      "id": 1,
+      "albums":"strojg"
+    },  {
+      "id": 2,
+      "albums": "a"
+    },
+    {
+      "id": 3,
+      "albums": "w"
+    },
+    {
+      "id": 4,
+      "albums":"an"
+    },  {
+      "id": 5,
+      "albums": "ant"
+    },
+    {
+      "id": 6,
+      "albums": "wwt"
+    },
+    {
+      "id": 7,
+      "albums":"s"
+    },  {
+      "id": 8,
+      "albums": "t"
+    },
+    {
+      "id": 9,
+      "albums": "u"
+    },
+    {
+      "id": 10,
+      "albums":"v"
+    },  {
+      "id": 11,
+      "albums": "awe"
+    },
+    {
+      "id": 12,
+      "albums": "x"
+    },
+    {
+      "id": 13,
+      "albums": "w"
+    },
+    {
+      "id": 14,
+      "albums":"an"
+    },  {
+      "id": 15,
+      "albums": "ant"
+    },
+    {
+      "id": 16,
+      "albums": "wwt"
+    },
+    {
+      "id": 17,
+      "albums":"s"
+    },  {
+      "id": 18,
+      "albums": "t"
+    },
+    {
+      "id": 19,
+      "albums": "u"
+    },
+    {
+      "id": 20,
+      "albums":"v"
+    },  
+    {
+      "id": 21,
+      "albums": "awe"
+    },
+    {
+      "id": 22,
+      "albums": "x"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

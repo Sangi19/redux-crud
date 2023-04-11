@@ -1,8 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { setupListeners } from '@reduxjs/toolkit/query';
+import { jsonServerApi } from './services/jsonServerApi';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    [jsonServerApi.reducerPath]: jsonServerApi.reducer,
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(jsonServerApi.middleware),
 });
+
+setupListeners(store.dispatch);
